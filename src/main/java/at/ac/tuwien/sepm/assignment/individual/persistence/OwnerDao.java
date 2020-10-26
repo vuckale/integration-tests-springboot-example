@@ -14,4 +14,10 @@ public interface OwnerDao {
      */
     Owner findOneById(Long id);
 
+    /**
+     * @param owner owner entity to add to DB
+     * @return owner entity that was successfully added to DB
+     */
+    Owner add(Owner owner) throws DataAccessException;
+
 }

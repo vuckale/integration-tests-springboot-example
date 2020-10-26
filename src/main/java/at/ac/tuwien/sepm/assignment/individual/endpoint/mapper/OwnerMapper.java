@@ -11,5 +11,9 @@ public class OwnerMapper {
         return new OwnerDto(owner.getId(), owner.getName(), owner.getCreatedAt(), owner.getUpdatedAt());
     }
 
+    public Owner dtoToEntity(OwnerDto ownerDto) {
+        return new Owner(ownerDto.getId(), ownerDto.getName(), ownerDto.getCreatedAt(), ownerDto.getUpdatedAt());
+    }
+
 
 }

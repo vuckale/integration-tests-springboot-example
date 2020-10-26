@@ -5,12 +5,13 @@ import at.ac.tuwien.sepm.assignment.individual.persistence.OwnerDao;
 import at.ac.tuwien.sepm.assignment.individual.service.OwnerService;
 import at.ac.tuwien.sepm.assignment.individual.util.ValidationException;
 import at.ac.tuwien.sepm.assignment.individual.util.Validator;
-import java.lang.invoke.MethodHandles;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.stereotype.Service;
+
+import java.lang.invoke.MethodHandles;
 
 @Service
 public class SimpleOwnerService implements OwnerService {

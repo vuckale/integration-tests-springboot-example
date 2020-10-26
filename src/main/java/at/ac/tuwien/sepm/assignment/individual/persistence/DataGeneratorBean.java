@@ -1,14 +1,15 @@
 package at.ac.tuwien.sepm.assignment.individual.persistence;
 
-import java.lang.invoke.MethodHandles;
-import javax.annotation.PostConstruct;
-import javax.sql.DataSource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.jdbc.datasource.init.ScriptUtils;
+
+import javax.annotation.PostConstruct;
+import javax.sql.DataSource;
+import java.lang.invoke.MethodHandles;
 
 /**
  * This component is only created, if the profile {@code datagen} is active

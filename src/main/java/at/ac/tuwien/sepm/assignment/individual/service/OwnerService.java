@@ -2,7 +2,7 @@ package at.ac.tuwien.sepm.assignment.individual.service;
 
 import at.ac.tuwien.sepm.assignment.individual.entity.Owner;
 import at.ac.tuwien.sepm.assignment.individual.exception.NotFoundException;
-import at.ac.tuwien.sepm.assignment.individual.util.ValidationException;
+
 
 public interface OwnerService {
 
